@@ -18,7 +18,9 @@ function App() {
         <h3>{people.length} Birthday Today</h3>
         <List people={people}/>
         <button
-          onClick={handelReset}
+          onClick={() => {
+            console.log("clicked");
+          }}
         >
           Clear All
         </button>

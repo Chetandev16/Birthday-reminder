@@ -2,24 +2,20 @@ import React, { useState } from "react";
 import data from "./data";
 import List from "./List";
 function App() {
-
-  const[people , setPeople] = useState(data);
   
-   
-   
+  const var1 = " hello ";
+  const[reset , setRest] = useState(var1);
   const  handelReset = () =>{
-    setPeople([]);
+    setRest([]);
   }
-
-
+  
   return (
     <main>
       <section className="container">
-        <h3>{people.length} Birthday Today</h3>
-        <List people={people}/>
+        <h3>{var1}</h3>
+        <List />
         <button
-          onClick={handelReset}
-        >
+          onClick={handelReset}>
           Clear All
         </button>
       </section>

@@ -15,10 +15,12 @@ function App() {
   return (
     <main>
       <section className="container">
-        <h3>{people.length} Birthday Today</h3>
+        <h3>{people.length} 0 Birthday Today</h3>
         <List people={people}/>
         <button
-          onClick={handelReset}
+          onClick={() => {
+            console.log("clicked");
+          }}
         >
           Clear All
         </button>

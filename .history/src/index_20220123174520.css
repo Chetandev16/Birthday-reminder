@@ -180,7 +180,7 @@ main {
   display: block;
   width: 100%;
   border-color: transparent;
-  background: var(--clr-purple);
+  background: var(--clr-pink);
   margin: 2rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;
