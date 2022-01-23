@@ -1,27 +1,16 @@
-import React, { useState } from "react";
-import data from "./data";
+import React from "react";
+// import data from "./data";
 import List from "./List";
 function App() {
-
-  const[people , setPeople] = useState(data);
-  
-   
-   
-  const  handelReset = () =>{
-    setPeople([]);
-  }
-
-
   return (
     <main>
       <section className="container">
-        <h3>{people.length} Birthday Today</h3>
-        <List people={people}/>
-        <button
-          onClick={handelReset}
-        >
-          Clear All
-        </button>
+        <div>
+        <h3>Today's Birthday</h3>
+
+        </div>
+        <List/>
+        
       </section>
     </main>
   );
