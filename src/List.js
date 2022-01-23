@@ -27,7 +27,7 @@ const List = () => {
             </div>
             <button onClick = {() => {removeIteam(id)}}>
     
-              Delete
+              clear
             </button>
           </div>
         );
